@@ -12,7 +12,7 @@ export default function Dashboard() {
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResult, setSearchResult] = useState(null);
 
-  const API = "http://127.0.0.1:5000";
+  const API = "https://smartstock-o5e6.onrender.com/api";
 
   // ------------------ Fetch functions ------------------
   const fetchInventory = () => {
